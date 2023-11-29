@@ -8,8 +8,6 @@ def to_upper(character):
 
 
 def uppercase(string):
-
-
     string_new = ""
     for character in string:
         string_new += to_upper(character)
