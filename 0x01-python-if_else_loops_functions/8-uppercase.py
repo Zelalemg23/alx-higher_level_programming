@@ -6,11 +6,15 @@ def to_upper(character):
     else:
         return character
 
+
 def uppercase(string):
+
+
     string_new = ""
     for character in string:
         string_new += to_upper(character)
     print("{:s}".format(string_new))
+
 
 if __name__ == "__main__":
     # Example usage
